@@ -4,24 +4,20 @@ A simple Docker configuration to build and run a Strapi v4 application using Nod
 
 1st :- git clone 
 
+https://github.com/aman-yadavvv/strapi-docker.git
+
 
 
 🐳 Build the Image
-docker build -t strapi-app .
+
+[ docker build -t strapi-app . ] 
 
 ▶️ Run the Container
-docker run -p 1337:1337 strapi-app
+[docker run -p 1337:1337 strapi-app]
+
+
 
 🌐 Access the Application
 
 Admin Panel: http://localhost:1337/admin
 
-API Base URL: http://localhost:1337/api
-
-📌 Notes
-
-Runs Strapi in production mode
-
-Uses SQLite as the default database
-
-Designed for quick local setup and testing
