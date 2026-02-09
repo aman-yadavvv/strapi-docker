@@ -13,6 +13,7 @@ https://github.com/aman-yadavvv/strapi-docker.git
 [ docker build -t strapi-app . ] 
 
 ▶️ Run the Container
+
 [docker run -p 1337:1337 strapi-app]
 
 
